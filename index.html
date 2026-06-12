@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maitri Associates — Academic & Research Support</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+
+<body>
+
+<!-- Mobile overlay -->
+<div class="mob" id="mob">
+  <button class="mob-x" id="mobX">&#x2715;</button>
+  <a href="#services" onclick="closeMob()">Services</a>
+  <a href="#about" onclick="closeMob()">About</a>
+  <a href="#contact" onclick="closeMob()">Contact</a>
+  <a href="#contact" class="btn btn-red" onclick="closeMob()" style="margin-top:8px">Get a Callback</a>
+</div>
+
+<header id="hdr">
+  <div class="wrap">
+    <nav>
+      <!-- Logo matching brand identity -->
+      <a href="#" class="logo-wrap" aria-label="Maitri Associates">
+        <div class="logo-icon">
+          <img src="assets/logo_head.png" alt="Maitri Associates logo" />
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="#contact" class="btn btn-outline">Get a Callback</a>
+      </div>
+      <button class="ham" id="ham" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-eyebrow">
+      <div class="hero-eyebrow-line"></div>
+      <span class="hero-eyebrow-text">Academic &amp; Research Support</span>
+    </div>
+    <h1>Empowering Research,<br><em>Innovation</em> &amp; Academic Excellence.</h1>
+    <p class="hero-sub">Professional support for UG, PG, and PhD scholars — from project development and data analysis to publication and beyond.</p>
+    <div class="hero-btns">
+      <a href="#services" class="btn btn-red">Our Services</a>
+      <a href="#contact" class="btn btn-outline">Request a Callback</a>
+    </div>
+    <div class="hero-meta">
+      <div class="hm"><div class="hm-num" data-count="500" data-sfx="+">500+</div><div class="hm-lbl">Projects delivered</div></div>
+      <div class="hm"><div class="hm-num" data-count="300" data-sfx="+">300+</div><div class="hm-lbl">Scholars supported</div></div>
+      <div class="hm"><div class="hm-num" data-count="14" data-sfx="">14</div><div class="hm-lbl">Service areas</div></div>
+      <div class="hm"><div class="hm-num" data-count="98" data-sfx="%">98%</div><div class="hm-lbl">Satisfaction rate</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="fi" style="margin-bottom:52px">
+      <div class="sec-eyebrow"><div class="sec-eyebrow-rule"></div><p class="sec-label">Services</p></div>
+      <h2 class="sec-h2">Everything your research journey needs.</h2>
+    </div>
+
+    <!-- Research & Dev -->
+    <div class="cat fi">
+      <p class="cat-head"><span class="cat-num">1</span>Research &amp; Development</p>
+      <div class="svc-grid">
+        <div class="svc"><div class="svc-n">01</div><div class="svc-name">Research Project Development</div><div class="svc-desc">Comprehensive support for UG, PG, and PhD research projects, including topic selection, implementation, documentation, and publication assistance.</div></div>
+        <div class="svc"><div class="svc-n">02</div><div class="svc-name">Research Proposal Preparation</div><div class="svc-desc">Expert assistance in developing well-structured, impactful research proposals aligned with academic and funding requirements.</div></div>
+        <div class="svc"><div class="svc-n">03</div><div class="svc-name">Literature Review Support</div><div class="svc-desc">Systematic identification, analysis, and synthesis of scholarly literature to build strong research foundations and identify research gaps.</div></div>
+        <div class="svc"><div class="svc-n">04</div><div class="svc-name">Research Methodology Consultation</div><div class="svc-desc">Professional guidance in selecting appropriate research designs, methodologies, algorithms, and experimental frameworks.</div></div>
+      </div>
+    </div>
+
+    <!-- Writing & Analysis -->
+    <div class="cat fi">
+      <p class="cat-head"><span class="cat-num">2</span>Writing &amp; Analysis</p>
+      <div class="svc-grid">
+        <div class="svc"><div class="svc-n">05</div><div class="svc-name">Data Analysis Support</div><div class="svc-desc">Advanced analysis using MATLAB, Python, and statistical tools to generate research insights.</div></div>
+        <div class="svc"><div class="svc-n">06</div><div class="svc-name">Plagiarism Checking &amp; Reduction</div><div class="svc-desc">Comprehensive assessment and guidance to improve originality and maintain academic integrity.</div></div>
+        <div class="svc"><div class="svc-n">07</div><div class="svc-name">AI Content Detection &amp; Humanization</div><div class="svc-desc">Evaluation of AI-generated content and enhancement of academic writing authenticity.</div></div>
+        <div class="svc"><div class="svc-n">08</div><div class="svc-name">Thesis Formatting &amp; Editing</div><div class="svc-desc">Professional formatting, proofreading, and compliance verification per university guidelines.</div></div>
+      </div>
+    </div>
+
+    <!-- Publication Support -->
+    <div class="cat fi">
+      <p class="cat-head"><span class="cat-num">3</span>Publication Support</p>
+      <div class="svc-grid">
+        <div class="svc"><div class="svc-n">09</div><div class="svc-name">Journal Paper Formatting</div><div class="svc-desc">Manuscript preparation per IEEE, Springer, Elsevier, Scopus, and SCI requirements.</div></div>
+        <div class="svc"><div class="svc-n">10</div><div class="svc-name">Book Chapter Editing &amp; Publication</div><div class="svc-desc">Editing, formatting, and guidance for book chapter submission and publication.</div></div>
+        <div class="svc"><div class="svc-n">11</div><div class="svc-name">Conference Paper Preparation</div><div class="svc-desc">Full assistance in preparing conference papers and publication-ready manuscripts.</div></div>
+        <div class="svc"><div class="svc-n">12</div><div class="svc-name">Research Training Workshops</div><div class="svc-desc">Hands-on workshops on research methods, scientific writing, data analysis, and AI tools.</div></div>
+      </div>
+    </div>
+
+    <!-- Design & Digital -->
+    <div class="cat fi">
+      <p class="cat-head"><span class="cat-num">4</span>Design &amp; Digital</p>
+      <div class="svc-grid">
+        <div class="svc"><div class="svc-n">13</div><div class="svc-name">ID Card &amp; Certificate Design</div><div class="svc-desc">Professional design and printing for institutions, events, workshops, and conferences.</div></div>
+        <div class="svc"><div class="svc-n">14</div><div class="svc-name">Academic Website Development</div><div class="svc-desc">Responsive websites for researchers, faculty, institutions, and academic organizations.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="section" id="about">
+  <div class="wrap">
+      <div class="two-col">
+        <div class="fi-l">
+          <img src="assets/image.png" alt="Maitri Associates" class="about-image" />
+        </div>
+        <div class="fi-r">
+          <div class="sec-eyebrow"><div class="sec-eyebrow-rule"></div><p class="sec-label">About</p></div>
+          <h2 class="sec-h2">A research support team that takes your work seriously.</h2>
+          <p class="sec-p">Maitri Associates was founded to bridge the gap between academic ambition and successful execution. We work closely with students, faculty, and institutions to make that happen.</p>
+          <p class="sec-p">Our approach is simple: understand your specific requirement, match you with the right expertise, and deliver work that meets academic standards — on time, every time.</p>
+          <p class="sec-p" style="margin-top:24px; font-size:.78rem; letter-spacing:.3px; color:var(--steel);">
+            <strong style="color:var(--ink); font-weight:600; display:block; margin-bottom:2px;">Parassala, Kerala</strong>
+            <a href="mailto:info@maitriassociates.com" style="color:var(--red); text-decoration:none;">info@maitriassociates.com</a>
+          </p>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section" id="contact" style="border-bottom:none">
+  <div class="wrap">
+    <div class="contact-wrap">
+      <div class="fi-l">
+        <div class="sec-eyebrow"><div class="sec-eyebrow-rule"></div><p class="sec-label">Contact</p></div>
+        <h2 class="sec-h2">Request a free callback.</h2>
+        <p class="sec-p" style="margin-bottom:32px">Fill in the form and we'll call you back within 24 hours — no obligation, no spam.</p>
+        <div>
+          <div class="contact-detail"><span class="cd-lbl">Email</span><span class="cd-val"><a href="mailto:researchmaitri@gmail.com" style="color:inherit;text-decoration:none;">researchmaitri@gmail.com</a></span></div>
+          <div class="contact-detail"><span class="cd-lbl">Phone</span><span class="cd-val">+91 7012359764</span></div>
+          <div class="contact-detail"><span class="cd-lbl">Location</span><span class="cd-val">Parassala, Kerala</span></div>
+          <div class="contact-detail"><span class="cd-lbl">Hours</span><span class="cd-val">Mon – Sat, 9:30 am – 5 pm</span></div>
+        </div>
+      </div>
+      <div class="fi-r">
+        <div id="formWrap">
+          <form id="cbForm" novalidate>
+            <div class="field-row">
+              <div class="field"><label for="fname">Full name</label><input type="text" id="fname" placeholder="Your name" required></div>
+              <div class="field"><label for="phone">Phone number</label><input type="tel" id="phone" placeholder="+91 98765 43210" required></div>
+            </div>
+            <div class="field"><label for="email">Email address</label><input type="email" id="email" placeholder="you@example.com" required></div>
+            <div class="field">
+              <label for="svc">Service needed</label>
+              <select id="svc">
+                <option value="">Select a service —</option>
+                <option>Research Project Development</option>
+                <option>Research Proposal Preparation</option>
+                <option>Literature Review Support</option>
+                <option>Research Methodology Consultation</option>
+                <option>Data Analysis (MATLAB / Python)</option>
+                <option>Plagiarism Checking &amp; Reduction</option>
+                <option>AI Content Detection &amp; Humanization</option>
+                <option>Thesis Formatting &amp; Editing</option>
+                <option>Journal Paper Formatting</option>
+                <option>Book Chapter / Conference Paper</option>
+                <option>ID Card / Certificate Design</option>
+                <option>Academic Website Development</option>
+                <option>Research Training Workshop</option>
+                <option>Not sure — need advice</option>
+              </select>
+            </div>
+            <div class="field"><label for="msg">Brief description <span style="color:#bbb;font-weight:400">(optional)</span></label><textarea id="msg" placeholder="What do you need help with?"></textarea></div>
+            <button type="submit" class="form-btn" id="fBtn">Request Callback</button>
+          </form>
+        </div>
+        <div class="form-ok" id="formOk">
+          <div class="form-ok-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><polyline points="4,12 9,17 20,6"/></svg>
+          </div>
+          <p>We've received your request.</p>
+          <p>Someone from our team will call you within 24 hours. Email us at info@maitriassociates.com in the meantime.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="wrap">
+    <div class="ft-top">
+      <div>
+        <div class="ft-logo-wrap" aria-label="Maitri Associates">
+          <div class="ft-logo-icon">
+            <img src="assets/logo_foot.png" alt="Maitri Associates logo" />
+          </div>
+        </div>
+        <p class="ft-tagline">Academic and research support for scholars at every stage</p>
+        <br>
+        <br>
+        <div class="ft-address">
+            <p>Maitri Associates,<br>Third Floor, Niranjan Plaza,<br>Block office Road,<br>Parassala, Kerala 695502 </p>
+        </div>
+      </div>
+      <div class="ft-map">
+        <h4>Find Us</h4>
+        <div class="ft-map-frame">
+          <iframe
+            title="Maitri Associates location map"
+            src="https://www.google.com/maps?q=8.3433032,77.1574545&z=16&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <a class="ft-map-link" href="https://maps.google.com/?q=8.3433032,77.1574545" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+      </div>
+      <div class="ft-cols">
+        <div class="ft-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Research &amp; Development</a></li>
+            <li><a href="#services">Writing &amp; Analysis</a></li>
+            <li><a href="#services">Publication Support</a></li>
+            <li><a href="#services">Design &amp; Digital</a></li>
+          </ul>
+        </div>
+        <div class="ft-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#about">Why Maitri</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Get a Callback</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <span class="ft-copy">&copy; 2026 Maitri Associates. All rights reserved.</span>
+      <span class="ft-copy">Parassala, Kerala, India</span>
+    </div>
+  </div>
+</footer>
+ <script src="script.js"></script>
+</body>
+</html>
