@@ -482,10 +482,10 @@ footer { background: var(--ink); padding: 56px 0 28px; }
   .wrap { padding: 0 22px; }
   .nav-links, .nav-right { display: none; }
   .ham { display: flex; }
-  .logo-icon { width: 44px; height: 44px; }
-  .logo-icon img { width: 28px; }
-  .ft-logo-icon { width: 36px; height: 36px; }
-  .ft-logo-icon img { width: 20px; }
+  .logo-icon { width: auto; height: auto; } /* remove fixed box */
+  .logo-icon img { height: 48px; width: auto; } /* slightly smaller but visible */
+  .logo-text .logo-maitri { font-size: .95rem; }
+  .logo-text .logo-associates { font-size: .54rem; }
   .two-col, .contact-wrap { grid-template-columns: 1fr; gap: 44px; }
   .hero h1 { font-size: 2.4rem; }
   .hero::before { width: 3px; }
